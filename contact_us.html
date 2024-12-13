@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            body {background-image: url('https://assets.weforum.org/article/image/XJkVQrA6uy9CVqo_9e3DMLlKvkOHcr8wPO4RbDhbsfc.jpg'); background-size:cover;background-attachment:fixed; margin:0;}
+                nav {padding: 5px;
+                    display: flex;
+                    justify-content:space-around;
+                    background-color:black;
+                align-items: center;}
+                #mainTitle {display: flex;}
+                img {margin-right: 10px;}
+                #travelBoi {color:green; font-family: Impact;}
+                #links {font-family: Georgia;}
+                a.homeCSS {text-decoration: none; color:white;margin-right: 60px;}
+                a.aboutUsCSS {text-decoration: none; color: white;margin-right: 60px;}
+                a.contactUsCSS {text-decoration: none; color: white;}
+                input.search {border-radius: 10px;}
+                ul {list-style: none; transform: translateY(85%)}
+                h1.bigText {font-size:100px; margin-left: 200px; transform: translateY(-300%); color: white;}
+                #enterText {margin-left: 300px; transform: translateY(-50%);}
+        </style>
+    </head>
+    <body>
+        <nav>
+                <div id="mainTitle">
+                <img src="https://cdn-icons-png.flaticon.com/512/7893/7893979.png" width="50px" hieght="50px">
+                <h2 id="travelBoi">TravelBoy</h2>
+                </div>
+
+                <div id="links">
+                <a id="home" class="homeCSS" href="./travel_recommendations.html">Home</a>
+                <a id="aboutUs" class="aboutUsCSS" href="./about_us.html">About us</a>
+                <a id="contactUs" class="contactUsCSS" href="./contact_us.html">Contact us</a>
+                </div>
+
+                <div id="searchStuff">
+                <input type="text" class="search" id="search" placeholder="Search">
+                <button id='searchBtn'>Search</button>
+                <button id='clearBtn'>Clear</button>
+                </div>
+            </nav>
+
+                <ul>
+                    <h3 style="color: white;">L</h3>
+                    <h3 style="color: white;">I</h3>
+                    <h3 style="color: white;">N</h3>
+                    <h3 style="color: white;">K</h3>
+                    <h3 style="color: white;">S</h3>
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" width="60px" height="60px"></li><br>
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="60px" height="60px"></li>
+                </ul>
+
+            <h1 class="bigText">Contact Us<strong></h1>
+            
+            <form id="enterText">
+                <fieldset>
+                    <h4 style="color: white;">Name</h4>
+                    <input type="text" id="name">
+                    <br>
+                    <h4 style="color: white;">Email</h4>
+                    <input type="text" id="email">
+                    <br>
+                    <h4 style="color: white;">Message</h4>
+                    <textarea type="text" id="textM" name="messageArea" rows="20" cols="100" placeholder="Write here"></textarea>        
