@@ -20,6 +20,7 @@
                 ul {list-style: none; transform: translateY(85%)}
                 h1.bigText {font-size:100px; margin-left: 200px; transform: translateY(-300%); color: white;}
                 #enterText {margin-left: 300px; transform: translateY(-50%);}
+                fieldset {border: 0; display: inline-block; background-color: rgba( 0, 0, 0, 0.2); border-radius: 10px;}
         </style>
     </head>
     <body>
@@ -57,10 +58,14 @@
             <form id="enterText">
                 <fieldset>
                     <h4 style="color: white;">Name</h4>
-                    <input type="text" id="name">
+                    <input type="text" id="name" style="background-color: rgba(0, 0, 0, 0);color: white;border-color: white;">
                     <br>
                     <h4 style="color: white;">Email</h4>
-                    <input type="text" id="email">
+                    <input type="text" id="email" style="background-color: rgba(0, 0, 0, 0);color: white;border-color: white;">
                     <br>
                     <h4 style="color: white;">Message</h4>
-                    <textarea type="text" id="textM" name="messageArea" rows="20" cols="100" placeholder="Write here"></textarea>        
+                    <textarea type="text" id="textM" name="messageArea" rows="20" cols="100" style="background-color: rgba(0, 0, 0, 0);color: white;border-color: white;"></textarea>
+                    <br><br>
+                    <h4 id="submit" style="background-color: blue; border-radius: 10px; text-align: center; color: white; font-family: Georgia; padding: 10px 10px;">Submit</h4>
+                </fieldset>
+            </form>        
