@@ -1,10 +1,3 @@
-const submitButton= document.getElementById("submit");
-
-function submitForm() {
-    alert("Your form has been submitted")
-};
-//For the form submit button on "contact us" page
-document.getElementById('submit').addEventListener('click', submitForm);
 //clears input text for search bar
 function clear() {
     document.getElementById("search").value= "";
@@ -30,6 +23,12 @@ function searchCondition() {
             case "countries":
                 console.log(data.countries)
                 break;
+            case "country":
+                console.log(data.countries)
+                break;
+            default:
+                alert("Try looking for beaches,countries,or temples");
+
         }
     })
 }

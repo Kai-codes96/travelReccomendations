@@ -63,4 +63,12 @@
                     <h4 id="submit" style="background-color: blue; border-radius: 10px; text-align: center; color: white; font-family: Georgia; padding: 10px 10px;">Submit</h4>
                 </fieldset>
             </form>
-        </body>        
+            <script>
+                function submitForm() {
+                    alert("Your form has been submitted")
+                };
+                //For the form submit button on "contact us" page
+                document.getElementById('submit').addEventListener('click', submitForm);
+            </script>
+        </body> 
+    </html>       
