@@ -18,8 +18,8 @@
                 a.contactUsCSS {text-decoration: none; color: white;}
                 input.search {border-radius: 10px;}
                 ul {list-style: none; transform: translateY(85%)}
-                h1.bigText {font-size:100px; margin-left: 200px; transform: translateY(-140%); color: white;}
-                p.explanation {font-size: 25px; margin-left: 200px; transform: translateY(-400%); color: white;}
+                h1.bigText {font-size:100px; margin-left: 100px; transform: translateY(-140%); color: white;}
+                p.explanation {font-size: 25px; margin-left: 110px; transform: translateY(-310%); color: white;}
             </style>
         </head>
         <body>
@@ -39,9 +39,22 @@
                 <input type="text" class="search" id="search" placeholder="Search">
                 <button id='searchBtn'>Search</button>
                 <button id='clearBtn' onclick="window.clear()">Clear</button>
-                <div id="showPlaces"></div>
                 </div>
             </nav>
+            
+            <div id="showPlaces" style=" float: right;">
+                <img src="" id="image" style="width: 500px; hieght: 500px;">
+                <br>
+                <div id="placeDescrip" style="color: white; width: 500px;"></div>
+                <br>
+                <img src="" id="imageTwo" style="width: 500px; hieght: 500px;">
+                <br>
+                <div id="placeDescripTwo" style="color: white; width: 500px;"></div>
+                <br>
+                <img src="" id="imageThree" style="width: 500px; hieght: 500px;">
+                <br>
+                <div id="placeDescripThree" style="color: white; width: 500px;"></div>
+            </div>
 
                 <ul>
                     <h3 style="color: white;">L</h3>
@@ -52,9 +65,9 @@
                     <li><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" width="60px" height="60px"></li><br>
                     <li><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="60px" height="60px"></li>
                 </ul>
-
+                
             <h1 class="bigText">Where the hell </br> you wanna go!?<strong></h1>
-            <p class="explanation"> Hello fellow traveler. Whether your looking for somewhere to rest your head </br> or a place to chill with the homies, this website has all the resources you </br> need to find the perfect place to thrive & vibe.</p>
+            <p class="explanation" style="width: 600px;"> Hello fellow traveler. Whether your looking for somewhere to rest your head or a place to chill with the homies, this website has all the resources you need to find the perfect place to thrive & vibe.</p>
             <script src="./travel_recommendation.js">
         </body>
     </html>
